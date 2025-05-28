@@ -19,5 +19,6 @@ tsParticles.load("tsparticles", {
   },
   background: {
     color: "#F7F6F8"
+    // color:"#3c3c3c"
   }
 })

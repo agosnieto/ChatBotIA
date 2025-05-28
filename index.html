@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.cdnfonts.com/css/good-times-2" rel="stylesheet">
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="index.css">
   <title>VELTRIX</title>
@@ -10,32 +13,231 @@
 </head>
 
 <body>
-  <header>
-    <ul class="nav justify-content-center">
+  <header class="hero">
+    <div class="text-inicio">
+      <ul class="nav justify-content-center">
       <li class="nav-item">
         <a class="nav-link" href="#">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="nosotros.html">Nosotros</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Chatbot
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <li><a class="dropdown-item" href="#">Cómo funciona</a></li>
-          <li><a class="dropdown-item" href="#">Beneficios</a></li>
-          <li><a class="dropdown-item" href="#">Precio</a></li>
-        </ul>
+        <a class="nav-link" href="#via">Via</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="#beneficios">Beneficios</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#planes">Planes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#nosotros">Nosotros</a>
+      </li>
+       <li class="nav-item">
         <a class="nav-link">Contacto</a>
       </li>
     </ul>
+    </div>
+    <div class="text-inicio">
       <h1>VELTRIX</h1>
       <p>Innovación, tecnología y el futuro al alcance de tu conversación.</p>
+    </div>
+     <!-- <video autoplay muted loop>
+        <source src="./img/95fa9a69ae.mp4" type="video/mp4">
+      </video> -->
+      <!-- <div class="capa"></div> -->
   </header>
-  
+  <main>
+    <section id="via" class="section-via">
+      <h1>VIA</h1>
+      <p>
+        <strong>VIA es nuestro primer chatbot inteligente desarrollado con IA conversacional avanzada,</strong>
+        pensado para transformar la forma en que las empresas se comunican con sus clientes y equipos..
+    </p>
+
+    </section>
+    <section id="beneficios" class="section-precio">
+      <h2>¿POR QUÉ ELEGIR UN ASISTENTE VIRTUAL?</h2>
+      </h2>
+      <div class="row row-cols-* justify-content-center g-4 m-5">
+        <div class="col d-flex justify-content-center">
+          <div class="card-beneficio text-center">
+            <img src="img/icons8-rayo-48.png" class="benefit-icon" width="30px" alt="...">
+            <div class="card-body">
+              <h5 class="card-title benefit-title">RESPUESTAS INMEDIATAS Y PERSONALIZADAS</h5>
+              <p class="card-text beneficios-descripcion">Nuestro chatbot con Inteligencia Artificial responde en segundos, interpretando mensajes de texto y voz, utilizando emojis, y enviando imágenes y archivos para una comunicación más humana y efectiva</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-beneficio text-center">
+            <img src="img/icons8-cadena-50.png" class="benefit-icon" width="30px" alt="...">
+            <div class="card-body">
+              <h5 class="card-title benefit-title">CENTRALIZACIÓN DE CONSULTAS EN UN SOLO CANAL</h5>
+              <p class="card-text beneficios-descripcion">Unificamos todas las consultas de tus clientes en un único número de WhatsApp, permitiendo asignar chats y transferir conversaciones entre áreas sin perder el hilo de la comunicación.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-beneficio text-center">
+            <img src="img/icons8-línea-directa-50.png" class="benefit-icon" width="30px" alt="...">
+            <div class="card-body">
+              <h5 class="card-title benefit-title">Atención 24/7</h5>
+              <p class="card-text beneficios-descripcion">Nuestro sistema está disponible las 24 horas del día, los 7 días de la semana, con configuraciones horarias personalizables y un modo fuera de línea para garantizar que tus clientes siempre reciban una respuesta.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-beneficio text-center">
+            <img src="img/icons8-registro-50.png" class="benefit-icon" width="30px" alt="...">
+            <div class="card-body">
+              <h5 class="card-title benefit-title">Registro y seguimiento de clientes</h5>
+              <p class="card-text beneficios-descripcion">Automatizamos el registro de clientes en tu CRM, con filtros avanzados y seguimiento detallado de interacciones para mejorar la gestión de ventas y la atención al cliente.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="planes" class="section-precio">
+      <h1>PLANES</h1>
+      <div class="row row-cols-* justify-content-center g-4 m-5 container-services-index">
+        <div class="col d-flex justify-content-center">
+          <div class="card-plan text-center">
+            <div class="card-body">
+              <h5 class="card-title">VIA Essential - U$D 55/mes(+IVA)</h5>  
+              <p class="card-text">Ideal para emprendedores y pequeños negocios que quieren dar el primer paso hacia la automatización profesional.</p>
+              <p>Incluye:</p>
+              <ul>1 agente/usuario</ul>
+              <li>500 conversaciones al mes</li>
+              <ul>Chatbot inteligente básico (respuestas y flujos automatizados)</ul>
+              <ul>Horarios configurables + modo fuera de horario</ul>
+              <ul>Captura de datos automática (nombre, email, consulta)</ul>
+              <ul>Plantilla de flujos de atención personalizable</ul>
+              <li>Configuración inicial asistida</li>
+              <li>Reporte mensual básico</li>
+              <ul>Notas internas por chat para seguimiento</ul>
+              <p class="card-text">🔹 Más que WhatsApp Business: atención automatizada sin perder el toque humano.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5>Recomendado</h5>
+              <h5 class="card-title">Via Signature - u$d 120/mes (+IVA)</h5>
+              <p class="card-text">Para negocios que quieren escalar su atención sin perder el control ni la calidad.</p>
+              <p>Inlcuye todo lo del Plan Esencial +</p>
+              <ul>Hasta 3 agentes simultáneos</ul>
+              <ul>Chatbot inteligente (flujo conversacional)</ul>
+              <ul>Derivación automática por áreas</ul>
+              <ul>Horarios personalizables (modo fuera de línea)</ul>
+              <ul>Reportes básicos de actividad</ul>
+              <p class="card-text">💡 Perfecto para mejorar la atención sin complicaciones técnicas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-plan text-center">
+            <div class="card-body">
+              <h5 class="card-title"> VIA Infinite - Desde $500 USD/mes </h5>
+              <p class="card-text">Nuestro sistema está disponible las 24 horas del día, los 7 días de la semana, con configuraciones horarias personalizables y un modo fuera de línea para garantizar que tus clientes siempre reciban una respuesta.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="nosotros">
+      <h1>Nosotros</h1>
+      <p>Somos desarrolladores, consultores y diseñadores con una obsesión:
+      <strong>crear soluciones inteligentes que parezcan magia, pero que estén profundamente fundamentadas.</strong> 
+      </p>
+      <p><strong>Veltrix existe para integrar la inteligencia artificial con las decisiones humanas.</strong>
+        No solo creamos tecnología: construimos sistemas que piensan, escuchan y actúan con propósito.</p>
+        <p>Imaginamos un futuro donde las organizaciones toman decisiones más sabias, rápidas y empáticas gracias a la IA.</p>
+      <p>¿Qué hacemos?
+      <strong>Desarrollo de chatbots inteligentes personalizados</strong> 
+      <strong>Consultoría en integración de IA y sistemas IT.</strong>
+      <strong>Soluciones de automatización</strong>para empresas humanas, no impersonales.
+      <strong>Asesoría estratégica</strong> en el camino hacia la transformación digital</p>
+
+      <p>Lo que nos hace diferentes:
+      <strong>IA centrada en las personas.</strong> 
+      <strong>Diseño consciente. </strong>Minimalismo funcional.
+      <strong>Ética y transparencia.</strong>Porque la confianza no se programa: se cultiva.
+      <strong>Escalabilidad con elegancia.</strong>De startups a corporaciones, sin perder identidad.</p>
+      <!-- <h2>¿POR QUÉ ELEGIRNOS</h2>
+      <div class="row row-cols-* justify-content-center g-4 m-5">
+        <div class="col d-flex justify-content-center">
+          <div class="card-beneficio text-center">
+            <img src="img/icons8-llave-de-boca-50.png" class="benefit-icon" width="30px" alt="...">
+            <div class="card-body">
+              <h5 class="card-title benefit-title">Implementación asistida y personalizada</h5>
+              <p class="card-text beneficios-descripcion">Te ayudamos a configurar todo desde el primer día.
+                No solo accedés a una plataforma, te acompañamos paso a paso, con flujos conversacionales armados según tus procesos, 
+                rubro y objetivos.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-beneficio text-center">
+            <img src="img/icons8-estadísticas-50.png" class="benefit-icon" width="30px" alt="...">
+            <div class="card-body">
+              <h5 class="card-title benefit-title">Enfoque en ventas, no solo atención</h5>
+              <p class="card-text beneficios-descripcion">Nuestros bots no se quedan en responder. Están pensados para 
+                convertir consultas en clientes: capturan datos clave, filtran oportunidades y envían propuestas automáticas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-beneficio text-center">
+            <img src="img/icons8-inteligencia-artificial-30.png" class="benefit-icon" width="30px" alt="...">
+            <div class="card-body">
+              <h5 class="card-title benefit-title">Inteligencia entrenada para tu negocio</h5>
+              <p class="card-text beneficios-descripcion">Utilizamos IA personalizada con tus propios documentos, productos y servicios. 
+                Esto asegura respuestas coherentes con tu identidad de marca y objetivos comerciales.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-beneficio text-center">
+            <img src="img/icons8-cadena-50.png" class="benefit-icon" width="30px" alt="...">
+            <div class="card-body">
+              <h5 class="card-title benefit-title">Integraciones reales a medida</h5>
+              <p class="card-text beneficios-descripcion">Nos adaptamos a tu sistema, no al revés. 
+                Integramos el bot con tu ERP, sistema de facturación, tienda online o base de datos. 
+                Automatización real, sin límites.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-beneficio text-center">
+            <img src="img/icons8-soporte-técnico-con-gafas-60.png" class="benefit-icon" width="30px" alt="...">
+            <div class="card-body">
+              <h5 class="card-title benefit-title">Soporte humano experto</h5>
+              <p class="card-text beneficios-descripcion">Desde el plan intermedio contás con soporte prioritario por 
+                WhatsApp y asesoría mensual. Tu negocio está respaldado por un equipo, no por un FAQ.</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </section>
+  </main>
+ <footer id="contact" class="min-height" style="margin-top: 50px;" >
+    <h2 class="title-section">Contacto</h2>
+    <div id="icon-contact" style="margin-top: 20px; margin-bottom: 15px;">
+      <a href="https://www.instagram.com/ja_desarrolloweb?igsh=MTRndm1heDVwZGEzNQ==" target="_blank" class="icon">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://wa.link/eic10h" target="_blank" class="icon">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <!-- <a href="https://www.linkedin.com/in/jael-agostina-nieto-camino-?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2FiF%2FWppsRny2JB99jlFvVA%3D%3D" target="_blank" class="icon">
+        <i class="fab fa-linkedin"></i>
+      </a> -->
+    </div>
+    <div class="text-center p-3">
+      © 2025 Copyright:
+      <a href="">VELTRIX</a>
+    </div>
+  </footer>
  
 <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
 <script src="background.js"></script>

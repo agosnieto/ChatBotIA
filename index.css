@@ -2,15 +2,53 @@
   --primary-color: #F7F6F8;
   --hover-color:#B8D7E1;
 }
+/* .hero{
+  min-height: 100vh;
+  position: relative;
+}
+.text-inicio{
+  position: relative;
+  z-index: 2;
+}
+video{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.capa{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  background-color:#1c1c1d;
+  opacity: 0.5;
+  mix-blend-mode: overlay;
+} */
 h1{
-  font-family: "Xspace";
+  font-family: "Good Times Rg", sans-serif;
   font-size: 70px;
   text-align: center;
   margin-top: 180px;
+  /* color:rgb(0, 168, 232,0.6); */
+  /* -webkit-text-stroke-color:  rgb(0, 168, 232,0.5);
+  -webkit-text-stroke-width: 1px; */
+  /* text-shadow: 0px 0px 5px rgb(0, 168, 232,0.5); */
+   /* text-shadow: 0px 0px 4px rgb(0, 0, 0,0.4);  */
+  
 }
-P{
+h2{
+  font-family: "Good Times Rg", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+p{
   text-align: center;
   font-size: 20px;
+  font-family: "Inter", sans-serif;
 }
 
 .nav-link{
@@ -25,10 +63,101 @@ P{
   border-radius: 20px;
 }
 .card{
-  background: rgba( 255, 255, 255, 0.25 );
-  /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+  background: radial-gradient(circle,rgba(255, 255, 255, 0.416),rgba(44, 201, 255,0.4));
+  box-shadow: 0 0px 4px 0 #b6eaff;
   backdrop-filter: blur( 3px );
-  -webkit-backdrop-filter: blur( 3px );
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.752);
+  -webkit-backdrop-filter: blur( 5px );
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.6);
 }
+
+.card-title{
+  font-size: 14px;
+  font-family: "Good Times Rg", sans-serif;
+}
+.card-text{
+  font-size: 16px;
+  justify-content: center;
+
+
+}
+/* .section-precio{
+  height: 70vh;
+  background-color: black;
+  background-color: rgb(0, 168, 232, 0.4); 
+  background: radial-gradient(circle,#2cc9ff 0%, rgb(182, 234, 255,1) 100%);
+   background: linear-gradient(#75dbff, #b6eaff);
+} */
+ .card-plan{
+  background-color:rgba(255, 255, 255, 0.4) ;
+  box-shadow: 0 0px 4px 0 #b7deed;
+  backdrop-filter: blur( 3px );
+  -webkit-backdrop-filter: blur( 5px );
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.card-beneficio {
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  padding: 2rem;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.benefit-icon,
+.benefit-title,
+.beneficios-descripcion {
+  transition: opacity 0.3s ease;
+}
+
+.benefit-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.benefit-title {
+  font-size: 1.1rem;
+}
+
+.beneficios-descripcion {
+  opacity: 0;
+  position: absolute;
+  padding: 1rem;
+  font-size: 0.95rem;
+  color: black;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card-beneficio:hover {
+  background-color: rgba(183, 222, 237, 0.5);
+  color: black;
+}
+
+.card-beneficio:hover .benefit-icon,
+.card-beneficio:hover .benefit-title {
+  opacity: 0;
+}
+
+.card-beneficio:hover .beneficios-descripcion {
+  opacity: 1;
+}
+/* .section-via{
+  background:url("./img/via-section.webp");
+  width: 100%;
+  height: 100%;
+} */
